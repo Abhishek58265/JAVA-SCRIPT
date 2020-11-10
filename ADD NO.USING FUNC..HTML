@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+
+  First NO.:<br>
+  <input type="text" id="firstNO." value="Enter 1st no." >
+  <br>
+  Last NO.:<br>
+  <input type="text" id="lastNO." value="Enter 2nd no." >
+  <br><br>
+
+  <input type="Submit" value="ADD" onclick="myFunction()" >
+  
+
+
+<p id="55"></p>
+<script>
+function myFunction(p1, p2) {
+  
+  
+   var num1 = parseInt(document.getElementById("firstNO.").value);
+
+var num2 = parseInt(document.getElementById("lastNO.").value);
+
+//add two numbers
+const sum = num1 + num2;
+document.getElementById("55").innerHTML =
+" sum = " + sum + ".";  
+}
+
+</script>
+ 
+
+</body>
+</html>
